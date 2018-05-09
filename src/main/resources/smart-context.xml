@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
        xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
        http://www.springframework.org/schema/context
@@ -22,7 +24,7 @@
           p:driverClassName="org.mariadb.jdbc.Driver"
           p:url="jdbc:mysql://localhost:3306/sampledb"
           p:username="root"
-          p:password="mysql" />
+          p:password="mariadb" />
 
     <!-- 配置Jdbc模板  -->
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"
