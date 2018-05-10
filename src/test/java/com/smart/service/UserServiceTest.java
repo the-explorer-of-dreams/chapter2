@@ -13,7 +13,7 @@ import java.util.Date;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-@ContextConfiguration("classpath*:/smart-context.xml")
+@ContextConfiguration("classpath*:smart-context.xml")
 public class UserServiceTest extends AbstractTransactionalTestNGSpringContextTests {
     @Autowired
     private UserService userService;

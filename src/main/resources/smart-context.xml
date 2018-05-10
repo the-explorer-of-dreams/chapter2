@@ -24,7 +24,7 @@
           p:driverClassName="org.mariadb.jdbc.Driver"
           p:url="jdbc:mysql://localhost:3306/sampledb"
           p:username="root"
-          p:password="mysql" />
+          p:password="mariadb" />
 
     <!-- 配置Jdbc模板  -->
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"
